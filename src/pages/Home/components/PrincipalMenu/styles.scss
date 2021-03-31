@@ -1,0 +1,17 @@
+.App {
+  &__principalMenu {
+    height: 116px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #783183;
+
+    .contentLogo {
+      margin-top: 36px;
+
+      label {
+        color: #fff;
+        font-size: 8px;
+      }
+    }
+  }
+}

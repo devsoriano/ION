@@ -1,0 +1,38 @@
+.App {
+  &__Principal {
+    height: 142px;
+
+    &Container {
+      font-size: 16px;
+      font-weight: 600;
+      color: #333333;
+      padding: 23px 0px 29px 0;
+    }
+
+    &Balance {
+      width: 300px;
+      display: inline-block;
+      height: 86px;
+      border-radius: 4px;
+      box-shadow: 0 1px 9px 0 rgb(56 56 56 / 20%);
+      background-color: #fff;
+
+      &--title {
+        text-align: left;
+        font-size: 12px;
+        font-weight: 600;
+        color: #333;
+        margin: 12px 12px 0 12px;
+      }
+
+      &--amount {
+        font-size: 34px;
+        font-weight: bold;
+        line-height: 1.18;
+        text-align: left;
+        color: #bb64c8;
+        margin: 12px 0 0 12px;
+      }
+    }
+  }
+}

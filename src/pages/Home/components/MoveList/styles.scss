@@ -1,0 +1,75 @@
+.App {
+  &__MoveList {
+    &--header {
+      display: flex;
+      justify-content: space-between;
+      margin: 20px;
+
+      .title {
+        font-size: 24px;
+        line-height: 1.33;
+        color: #333;
+        font-weight: 600;
+      }
+
+      .seeAll {
+        a {
+          font-size: 15px;
+          line-height: 1.33;
+          color: #22a8d2;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  &__List {
+    &--Item {
+      display: flex;
+      justify-content: space-between;
+      margin: 20px;
+      border-bottom: 1px solid #bbbbbb;
+
+      img {
+        width: 44px;
+        height: 31px;
+      }
+
+      .description {
+        margin-left: -80px;
+
+        .name {
+          text-align: left;
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 1.43;
+          color: #333333;
+        }
+
+        .type {
+          text-align: left;
+          font-size: 12px;
+          line-height: 1.67;
+          color: #333333;
+        }
+      }
+
+      .timeAndCash {
+        .time {
+          text-align: right;
+          font-size: 12px;
+          font-weight: 300;
+          line-height: 1.67;
+          color: #333333;
+        }
+        .cash {
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 1.43;
+          text-align: right;
+          color: #333333;
+        }
+      }
+    }
+  }
+}
